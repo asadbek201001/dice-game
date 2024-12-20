@@ -11,7 +11,8 @@
 }
 
 body {
-  background-color: #393E46;
+  /* background-color: #393E46; */
+   background-color: black;
 }
 
 
@@ -56,3 +57,72 @@ justify-content: center;
 .place {
   height: 50px;
 }
+
+
+
+button {
+  width: 150px;
+  height: 40px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #4ECCA3;
+  border: none;
+  border-radius: 5px;
+  color: black;
+}
+
+button:hover {
+  background-color: #3da688;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  button {
+    width: 120px;
+    height: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+
+  button {
+    width: 100px;
+    height: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
