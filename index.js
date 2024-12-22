@@ -16,12 +16,12 @@ document.getElementById("refresh").onclick = function() {
     var title = document.getElementsByClassName("click")[0];
     if (player1Value > player2Value) {
         if (title) { 
-            title.textContent = "🚩Player 1 Win!"; 
+            title.textContent = "Player 1 Win!"; 
         }
     }
     else if (player1Value < player2Value) {
         if (title) { 
-            title.textContent = "Player 2 Win! 🚩"; 
+            title.textContent = "Player 2 Win!"; 
         }
     }
     else {

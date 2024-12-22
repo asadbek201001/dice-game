@@ -11,7 +11,7 @@
 }
 
 body {
-  /* background-color: #393E46; */
+
    background-color: black;
 }
 
@@ -31,9 +31,7 @@ p {
   font-family: 'Indie Flower', cursive;
 }
 
-img {
-  width: 80%;
-}
+
 
 footer {
   margin-top: 5%;
@@ -61,8 +59,8 @@ justify-content: center;
 
 
 button {
-  width: 150px;
-  height: 40px;
+  width: 30%;
+  height: 50px;
   font-size: 1rem;
   cursor: pointer;
   background-color: #4ECCA3;
@@ -75,23 +73,25 @@ button:hover {
   background-color: #3da688;
 }
 
+
+
+
 @media (max-width: 768px) {
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   p {
     font-size: 1.2rem;
   }
 
-  img {
-    width: 80px;
-    height: 80px;
+  .flex-container.img {
+    width: 100px;
+    height: 100px;
   }
-
-  button {
-    width: 120px;
-    height: 35px;
+  .flex-container button {
+    width: 200px !important;
+    height: 50px !important;
   }
 }
 
@@ -109,10 +109,11 @@ button:hover {
     height: 60px;
   }
 
-  button {
-    width: 100px;
-    height: 30px;
+  button#refresh {
+    width: 200px !important;
+    height: 50px !important;
   }
+  
 }
 
 
